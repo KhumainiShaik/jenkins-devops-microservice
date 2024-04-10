@@ -1,5 +1,5 @@
 //DECLARATIVE PIPELINE
-Pipeline{
+pipeline{
 	agent any
 	stages{
 		stage('Build'){
