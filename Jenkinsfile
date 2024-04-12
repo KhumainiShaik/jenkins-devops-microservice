@@ -1,7 +1,7 @@
 //DECLARATIVE PIPELINE
 pipeline{
 	agent { 
-		docker { image 'maven:3.9.6'}
+		docker { image 'maven:3.9.6-amazoncorretto-8-debian-bookworm'}
 	}
 	stages{
 		stage('Build'){
