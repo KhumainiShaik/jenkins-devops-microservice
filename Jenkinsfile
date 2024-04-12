@@ -1,7 +1,7 @@
 //DECLARATIVE PIPELINE
 pipeline{
 	agent { 
-		docker { image 'maven:3.6.3'}
+		docker { image 'maven:3.9.6'}
 	}
 	stages{
 		stage('Build'){
